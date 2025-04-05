@@ -24,8 +24,8 @@ console.log(Math);
 console.log(Math.abs(-4)); // example, the absolute value of -5 is the same as the absolute value of 5.
 console.log(Math.round(4.6));
 console.log(Math.ceil(4.2));
-console.log(Math.floor(4.9));
-console.log(Math.sqrt(25));
+console.log(Math.floor(4.9)); // floor is the opposite of ceil
+console.log(Math.sqrt(25)); // square root of 25 is 5
 console.log(Math.min(1, 6, 8, 87));
 console.log(Math.max(1, 6, 8, 87));
 

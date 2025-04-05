@@ -21,5 +21,4 @@ let isloggedIn = false
 //symbol => unique
 
 //object
-
-console.log(typeof age); 
+// console.log(typeof age); //numbers

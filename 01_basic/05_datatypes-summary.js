@@ -37,4 +37,31 @@ console.log(typeof bigNumber); //undefined
 console.log(typeof id); //symbol
 
 
+//*****************Memory*******************
+
+//Stack (Primitive), Heap (Non-primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"user@upi"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "Anshul@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+// Here the userOne and Two both declared into stack but take refernce from heap.
+
 
