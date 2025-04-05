@@ -1,1 +1,1 @@
-console.log(gameName.toWellFormed());
+console.log(myCreatedDate.toLocaleString());
